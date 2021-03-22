@@ -1,0 +1,119 @@
+/* variable for font  */
+:root {
+    --secondary:(132, 196, 226);
+}
+/* import from google font  */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* edit all pade  */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.842);
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #2b353b;
+    
+}
+
+.header h1 {
+    display: inline-block;
+    background-color: rgb(139, 179, 238);
+    color:  var(--secondary);
+    padding-left: 100px;
+}
+ 
+
+header {
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ header nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    color:  rgb(139, 179, 238);
+    
+}
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--secondary);
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+  }
+
+
+img {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.portfolio {
+  display: flex;
+  /* position:absolute; */
+  background-color: rgb(139, 179, 238);
+  margin-left: 95%;
+  padding-right: 60px;
+  font-family: 'PT Sans', sans-serif;
+  margin-bottom: 70px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.about-me h2 {
+    padding-right: 30px;
+}
+
+.bio {
+    flex: 0 0 80%;
+    margin: 50px;
+    
+}
+
+hr {
+    width: 7px;
+    background-color: rgb(24, 24, 158);
+}
+
+
+
+
+
+
+
